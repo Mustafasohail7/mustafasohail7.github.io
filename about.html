@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Mustafa Sohail — Red team operator, builder, and researcher.">
+  <title>About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], mono: ['JetBrains Mono', 'ui-monospace', 'monospace'] } } },
+    };
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="about" class="font-sans antialiased min-h-screen">
+
+  <div id="navbar"></div>
+  <div id="modals"></div>
+
+  <main class="max-w-5xl mx-auto px-6 pt-32 pb-24">
+    <header class="mb-16 fade-in">
+      <h1 class="text-4xl font-medium text-[#eceae6] tracking-tight mb-3">About</h1>
+    </header>
+
+    <!-- Personal Intro -->
+    <section class="mb-20 fade-in">
+      <p class="text-lg text-[#9b9aa3] leading-relaxed max-w-4xl mb-6">
+        I'm Mustafa — a cybersecurity professional who enjoys researching and exploring the inner workings of systems. I started out in Application Security and Red Teaming, but I am expanding my roots into cloud security engineering and governance as well. I am the guy who spends 2 hours automating a task which could have been done manually in half the time.
+      </p>
+      <p class="text-lg text-[#9b9aa3] leading-relaxed max-w-4xl">
+        This site is my workspace: part portfolio, part notebook. It's not trying to impress anyone but rather trying to be honest about the process of learning and also keeping a check on myself. This specific page is about me aside from work. You can probably draft a phishing email using this content.
+      </p>
+    </section>
+
+    <!-- Top 4 Movies -->
+    <section class="mb-20">
+      <h2 class="text-xl font-medium text-[#eceae6] mb-2 fade-in">My Letterboxd Top 4</h2>
+      <p class="text-sm text-[#9b9aa3] mb-8 fade-in">Rewatch anyday, anytime.</p>
+      <div id="top-movies" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+    </section>
+
+    <!-- Running -->
+    <section class="mb-20">
+      <h2 class="text-xl font-medium text-[#eceae6] mb-2 fade-in">Running</h2>
+      <p class="text-sm text-[#9b9aa3] mb-8 fade-in">Early morning runs.</p>
+      <div id="running-section" class="fade-in"></div>
+    </section>
+
+    <!-- Hobbies & Song Corner -->
+    <section class="mb-20">
+      <h2 class="text-xl font-medium text-[#eceae6] mb-8 fade-in">Things I'm Into Right Now</h2>
+      <div id="hobbies-song" class="card p-6 md:p-8 fade-in"></div>
+    </section>
+
+    <!-- Philosophy -->
+    <section>
+      <h2 class="text-xl font-medium text-[#eceae6] mb-6 fade-in">Philosophy</h2>
+      <div class="fade-in max-w-4xl space-y-4 text-[#9b9aa3] leading-relaxed">
+        <p>
+          My life philosophy revolves around three pillars: minimalism, curiosity and persistence. The same philosophy applies to my work as well.
+          Minimalism, to me, means focusing on the problem before the solution. Modern software often accumulates layers of features and abstractions that obscure its original purpose. I prefer to understand the simplest possible solution first and only add complexity when it serves a clear purpose. 
+        </p>
+        <p>
+          This is why I value understanding tools at their lowest practical level. Burp Suite is incredibly useful, but many of its core functions can be replicated with curl and a bit of scripting. The goal is not to avoid tools, it is to understand what they are doing underneath. Understanding the fundamentals keeps me tool-agnostic and UI-independent.
+        </p>
+        <p>
+          Curiosity is what drives me to keep digging deeper. I enjoy understanding why things work, how they fail, and what assumptions exist beneath the surface.
+          Persistence is what turns curiosity into results. It's just as simple as putting in the work everyday and believing in delayed gratification.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="js/content.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
