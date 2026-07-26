@@ -17,7 +17,7 @@ const SITE = {
 const NAV_LINKS = [
   { label: "Home", href: "index.html", page: "home" },
   { label: "Lab", href: "lab.html", page: "lab" },
-  { label: "Notes", href: "notes.html", page: "notes" },
+  { label: "Blog", href: "notes.html", page: "notes" },
   { label: "Vault", href: "vault.html", page: "vault" },
   { label: "About", href: "about.html", page: "about" },
 ];
@@ -159,6 +159,14 @@ const NOTES = [
     skills: ["Experience"],
     href: "https://medium.com/@mustufasohail7/the-ejptv2-experience-e3d6e1cce162",
     readTime: "5 min",
+  },
+  {
+    title: "Bare Bones Endpoint Detection System Using MITRE ATT&CK",
+    excerpt: "A minimalistic endpoint detection system.",
+    category: "Research",
+    skills: ["Threat Hunting", "MITRE ATT&CK", "Event Logging"],
+    href: "https://medium.com/@mustufasohail7/bare-bones-endpoint-detection-system-using-mitre-att-ck-c0ace3b0353a",
+    readTime: "7 min",
   },
 ];
 
