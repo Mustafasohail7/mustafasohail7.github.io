@@ -67,13 +67,6 @@ const SERVICES = [
 /* Only "In Progress" projects appear on the Lab page */
 const LAB_PROJECTS = [
   {
-    title: "Phishkit Inspector",
-    status: "In Progress",
-    summary: "A tool to detect phishing forms and improve user awareness.",
-    github: null,
-    medium: null,
-  },
-  {
     title: "Security Assessment Automation Portal",
     status: "Company Internal",
     summary: "Automated portal for assessment of files, URLs and IPs through different intelligence sources, sandboxes and scanners.",
