@@ -6,7 +6,7 @@ const SITE = {
   email: "mustufasohail7@gmail.com",
   github: "https://github.com/Mustafasohail7",
   resume: "assets/resume.pdf",
-  currentActivity: "Working on a Solution That Detects Phishing Forms",
+  currentActivity: "Working on deploying my own T-guard Lab",
   profile: {
     default: "assets/profile.jpg",
     hover: "assets/profile-hover.jpg",
