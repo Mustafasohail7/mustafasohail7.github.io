@@ -23,8 +23,8 @@ const NAV_LINKS = [
 ];
 
 const IDENTITY_STRIP = [
-  "2 Years Experience",
-  "eJPT Certified",
+  "2.5 Years Experience",
+  "eJPT & CEH Certified",
   "Writeups & Research"
 ];
 
@@ -117,6 +117,11 @@ const LEARNING_TIMELINE = [
     date: "2026",
     title: "Web Exploitation",
     description: "Completed OverTheWire Natas, strengthening web security and exploitation skills."
+  },
+  {
+    date: "2026",
+    title: "CEH Certification",
+    description: "Completed Certified Ethical Hacker certification."
   }
 ];
 
@@ -182,6 +187,19 @@ const CERTIFICATIONS = [
       "Network scanning and enumeration fundamentals",
       "Web application vulnerability identification",
       "Exploitation and post-exploitation techniques"
+    ],
+  },
+  {
+    name: "CEH",
+    fullName: "Certified Ethical Hacker",
+    issuer: "EC-Council",
+    year: "2026",
+    status: "completed",
+    credentialUrl: "/assets/CEH_cert.pdf",
+    learned: [
+      "Ethical hacking principles and methodologies",
+      "New vulnerabilities and attack vectors",
+      "Unique penetration testing like ATMs"
     ],
   },
   {
